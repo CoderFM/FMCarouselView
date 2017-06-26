@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15165EA61EFF8AD10009F80D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15165EA51EFF8AD10009F80D /* AppDelegate.swift */; };
+		15165EA81EFF8AD10009F80D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15165EA71EFF8AD10009F80D /* ViewController.swift */; };
+		15165EAB1EFF8AD10009F80D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15165EA91EFF8AD10009F80D /* Main.storyboard */; };
+		15165EAD1EFF8AD10009F80D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15165EAC1EFF8AD10009F80D /* Assets.xcassets */; };
+		15165EB01EFF8AD10009F80D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15165EAE1EFF8AD10009F80D /* LaunchScreen.storyboard */; };
+		15165EB91EFF8B1B0009F80D /* FMCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15165EB81EFF8B1B0009F80D /* FMCarouselView.swift */; };
+		15509AD71EFFD1BC00316B34 /* FMImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15509AD61EFFD1BC00316B34 /* FMImageLoader.swift */; };
+		15509ADA1EFFD22200316B34 /* FMNetCommonValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15509AD81EFFD22200316B34 /* FMNetCommonValue.swift */; };
+		15509ADB1EFFD22200316B34 /* FMNetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15509AD91EFFD22200316B34 /* FMNetManager.swift */; };
+		15509AE11EFFD2B400316B34 /* CommonFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15509AE01EFFD2B400316B34 /* CommonFunc.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15165EA21EFF8AD10009F80D /* FMCarouselView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMCarouselView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15165EA51EFF8AD10009F80D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15165EA71EFF8AD10009F80D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15165EAA1EFF8AD10009F80D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15165EAC1EFF8AD10009F80D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15165EAF1EFF8AD10009F80D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15165EB11EFF8AD10009F80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15165EB81EFF8B1B0009F80D /* FMCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMCarouselView.swift; sourceTree = "<group>"; };
+		15509AD61EFFD1BC00316B34 /* FMImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMImageLoader.swift; sourceTree = "<group>"; };
+		15509AD81EFFD22200316B34 /* FMNetCommonValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMNetCommonValue.swift; sourceTree = "<group>"; };
+		15509AD91EFFD22200316B34 /* FMNetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMNetManager.swift; sourceTree = "<group>"; };
+		15509ADC1EFFD25100316B34 /* FMCarouselView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMCarouselView-Bridging-Header.h"; sourceTree = "<group>"; };
+		15509AE01EFFD2B400316B34 /* CommonFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFunc.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15165E9F1EFF8AD10009F80D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15165E991EFF8AD10009F80D = {
+			isa = PBXGroup;
+			children = (
+				15165EA41EFF8AD10009F80D /* FMCarouselView */,
+				15165EA31EFF8AD10009F80D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15165EA31EFF8AD10009F80D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15165EA21EFF8AD10009F80D /* FMCarouselView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15165EA41EFF8AD10009F80D /* FMCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				15165EB71EFF8AF50009F80D /* Class */,
+				15165EA51EFF8AD10009F80D /* AppDelegate.swift */,
+				15165EA71EFF8AD10009F80D /* ViewController.swift */,
+				15165EA91EFF8AD10009F80D /* Main.storyboard */,
+				15165EAC1EFF8AD10009F80D /* Assets.xcassets */,
+				15165EAE1EFF8AD10009F80D /* LaunchScreen.storyboard */,
+				15165EB11EFF8AD10009F80D /* Info.plist */,
+				15509ADC1EFFD25100316B34 /* FMCarouselView-Bridging-Header.h */,
+			);
+			path = FMCarouselView;
+			sourceTree = "<group>";
+		};
+		15165EB71EFF8AF50009F80D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				15509AE01EFFD2B400316B34 /* CommonFunc.swift */,
+				15509AD81EFFD22200316B34 /* FMNetCommonValue.swift */,
+				15509AD91EFFD22200316B34 /* FMNetManager.swift */,
+				15509AD61EFFD1BC00316B34 /* FMImageLoader.swift */,
+				15165EB81EFF8B1B0009F80D /* FMCarouselView.swift */,
+			);
+			path = Class;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15165EA11EFF8AD10009F80D /* FMCarouselView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15165EB41EFF8AD10009F80D /* Build configuration list for PBXNativeTarget "FMCarouselView" */;
+			buildPhases = (
+				15165E9E1EFF8AD10009F80D /* Sources */,
+				15165E9F1EFF8AD10009F80D /* Frameworks */,
+				15165EA01EFF8AD10009F80D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMCarouselView;
+			productName = FMCarouselView;
+			productReference = 15165EA21EFF8AD10009F80D /* FMCarouselView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15165E9A1EFF8AD10009F80D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "周发明";
+				TargetAttributes = {
+					15165EA11EFF8AD10009F80D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5FVZG33394;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 15165E9D1EFF8AD10009F80D /* Build configuration list for PBXProject "FMCarouselView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15165E991EFF8AD10009F80D;
+			productRefGroup = 15165EA31EFF8AD10009F80D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15165EA11EFF8AD10009F80D /* FMCarouselView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15165EA01EFF8AD10009F80D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15165EB01EFF8AD10009F80D /* LaunchScreen.storyboard in Resources */,
+				15165EAD1EFF8AD10009F80D /* Assets.xcassets in Resources */,
+				15165EAB1EFF8AD10009F80D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15165E9E1EFF8AD10009F80D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15509ADB1EFFD22200316B34 /* FMNetManager.swift in Sources */,
+				15165EA81EFF8AD10009F80D /* ViewController.swift in Sources */,
+				15509ADA1EFFD22200316B34 /* FMNetCommonValue.swift in Sources */,
+				15165EB91EFF8B1B0009F80D /* FMCarouselView.swift in Sources */,
+				15165EA61EFF8AD10009F80D /* AppDelegate.swift in Sources */,
+				15509AE11EFFD2B400316B34 /* CommonFunc.swift in Sources */,
+				15509AD71EFFD1BC00316B34 /* FMImageLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15165EA91EFF8AD10009F80D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15165EAA1EFF8AD10009F80D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15165EAE1EFF8AD10009F80D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15165EAF1EFF8AD10009F80D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15165EB21EFF8AD10009F80D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15165EB31EFF8AD10009F80D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15165EB51EFF8AD10009F80D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5FVZG33394;
+				INFOPLIST_FILE = FMCarouselView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfm.FMCarouselView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FMCarouselView/FMCarouselView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		15165EB61EFF8AD10009F80D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5FVZG33394;
+				INFOPLIST_FILE = FMCarouselView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfm.FMCarouselView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FMCarouselView/FMCarouselView-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15165E9D1EFF8AD10009F80D /* Build configuration list for PBXProject "FMCarouselView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15165EB21EFF8AD10009F80D /* Debug */,
+				15165EB31EFF8AD10009F80D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15165EB41EFF8AD10009F80D /* Build configuration list for PBXNativeTarget "FMCarouselView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15165EB51EFF8AD10009F80D /* Debug */,
+				15165EB61EFF8AD10009F80D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15165E9A1EFF8AD10009F80D /* Project object */;
+}
