@@ -9,11 +9,15 @@
 import UIKit
 
 
-@objc protocol FMCarouselViewPrortocol{
-    @objc optional func taped(carouselView: FMCarouselView, index: Int) -> Void
+protocol FMCarouselViewPrortocol{
+    
 }
 
 extension FMCarouselViewPrortocol{
+    func taped(carouselView: FMCarouselView, index: Int) -> Void {
+        
+    }
+    
     func layout(_ itemSize: CGSize) -> UICollectionViewLayout{
         let flowLayout = UICollectionViewFlowLayout()
         flowLayout.itemSize = itemSize
@@ -190,10 +194,10 @@ class FMCarouselView: UIView {
     
     func taped() -> Void {
         if self.unlimitedCycle {
-            self.delegate?.taped?(carouselView: self, index: self.currentIndex)
+            self.delegate?.taped(carouselView: self, index: self.currentIndex)
         } else {
             let index = self.collectionView.contentOffset.x / self.bounds.size.width
-            self.delegate?.taped?(carouselView: self, index: Int(index))
+            self.delegate?.taped(carouselView: self, index: Int(index))
         }
     }
 }
@@ -223,7 +227,7 @@ extension FMCarouselView: UICollectionViewDataSource{
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        self.delegate?.taped?(carouselView: self, index: indexPath.row)
+        self.delegate?.taped(carouselView: self, index: indexPath.row)
     }
 }
 
